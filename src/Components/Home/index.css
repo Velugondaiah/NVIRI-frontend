@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Add font-family to the body or specific elements */
+body {
+    font-family: 'Open Sans', sans-serif; /* Added Open Sans font family */
+}
+
+.main-bg-container{
+    background-color: rgb(243, 247, 249);
+    padding: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 25px;
+}
+.button1{
+    background-color:#FFFFFF ;
+    color: #212529;
+    border-radius: 20px;
+    width: 90px;
+    font-weight: 600;
+    height: 30px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 17px;
+}
+.button2{
+    background-color:#EA3C12 ;
+    height: 30px;
+    width: 80px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+
+}
+.main-home-container{
+    margin-top: 15px;
+}
+.home-image{
+    height: 260px;
+}
+.home-heading{
+   
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+.home-para{
+    color: #525F7F;
+}
+.location-dropdown{
+    height: 40px;
+    width: 80px;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.search-input{
+    border: 2px  #CAD1D7 solid;
+    height: 40px;
+    background-color: #FFFFFF;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 35px;
+    color: #ADB5BD;
+    font-size: 16px;
+
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+ 
+}
+.search-button {
+    margin-left: 5px; /* Space between input and button */
+    background-color: #EA3C12; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    padding: 5px 10px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+.search-input-container {
+    position: relative; /* Position relative for absolute positioning of the icon */
+}
+
+.search-icon {
+    position: absolute; /* Position the icon absolutely */
+    left: 10px; /* Adjust as needed */
+    top: 50%; /* Center vertically */
+
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    color: #A9A9A9; /* Optional: Change icon color */
+}
+
+.services-container{
+
+}
+.services-heading{
+     color: #000000;
+     font-weight: 600;
+     font-size: 28px;
+
+}
+.services-para{
+    color: #525F7F;
+    font-weight: 300;
+    font-size: 19px;
+
+}
+.services-icons{
+    font-size: 40px;
+
+}
+.services-type{
+    color: #000000;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+.services-des{
+    color: #525F7F;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.booking-steps-container{
+
+}
+.booking-main-heading{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.each-booking-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.booking-image{
+    height: 200px;
+
+}
+.booking-heading{
+    color: #32325D;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.booking-des{
+    color: #525F7F;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.each-vender-card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.vendor-details{
+    display: flex;
+    align-items: flex-start;
+}
+.vendor-name{
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.unorder-list{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.verder-services{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+.val{
+    color: #525F7F;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0px;
+
+}
+.val-des{
+    color: #8898AA;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.an{
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+.head{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+.customers{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 30px;
+
+
+}
+.review-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+.aaa{
+    margin-left: 10px;
+}
+.days{
+    color: #0000008A;
+    font-weight: 400;
+    font-size: 16;
+
+}
+.review-des{
+    color: #2A363D;
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+.custome-revi{
+    color: #2A363D;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+@media  (min-width :500px)  {
+    .main-bg-container{
+        padding: 35px;
+       
+    }
+    .con{
+        min-width: 300px;
+        
+        order: -1;
+    }
+    .main-home-container{
+      
+        
+        display: flex;
+        
+    }
+    .home-heading{
+        width: 100%;
+
+    }
+    .home-para{
+        width: 100;
+        flex-shrink: 1;
+    }
+    .search-input{
+        width: 80%;
+        margin-right: 10px;
+    }
+    .home-image{
+        flex-shrink: 1;
+        
+    }
+    .ser-cont{
+        display: flex;
+        flex-wrap: wrap;
+        
+
+    }
+    .services-type-container{
+        width: 180px;
+    
+        margin-top: 20PX;
+        margin-right: 40px;
+    }
+    
+}
+@media  (min-width:768px) {
+    .main-home-container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .booking-steps-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .feature-vendors-container{
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+    
+    .ven{
+       margin-left: 40px;
+    }
+    nav{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .services-type-container{
+       
+    }
+    .services-container{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .book-cont{
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+
+    }
+    .each-booking-container{
+       
+        width: 300px; 
+        margin-right: 15px;
+    }
+    .vendor-cont{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .customerss{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+       
+    }
+    .each-vender-card{
+        width: 250px;
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+    .each-customer-review{
+        width: 250px;
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1100px) {
+    .services-type-container{
+        width: 200px;
+    }
+    .each-booking-container{
+        margin-right: 30px;
+        margin-left: 60px;
+    }
+    .each-vender-card{
+        width: 270px;
+    }
+    .each-customer-review{
+        width: 270px;
+    }
+    
+}
+@media (min-width:1200px) {
+    .services-type-container{
+        width: 340px;
+    }
+    .main-home-container{
+       
+        padding-right: 260px;
+
+    }
+    
+    nav{
+       
+        padding-right: 300px;
+    }
+    .home-image{
+        height: 360px;
+    }
+    .home-para{
+        width: 70%;
+    }
+    .home-heading{
+        font-size: 35px;
+    }
+    .home-para{
+        font-size: 24px;
+    }
+    .each-vender-card{
+        width: 340px;
+    }
+    .each-customer-review{
+        width: 340px;
+    }
+}
